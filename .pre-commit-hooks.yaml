@@ -1,0 +1,7 @@
+- id: git-good-commit
+  name: git-good-commit
+  description: "git-good-commit: Git hook to help you write good commit messages"
+  entry: hook.sh
+  language: script
+  stages:
+  - commit-msg
